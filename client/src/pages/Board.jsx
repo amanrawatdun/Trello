@@ -173,7 +173,7 @@ const Board = () => {
   // ============================================================
   return (
     <div className="min-h-screen bg-sky-800 p-6">
-      <h1 className="text-3xl font-bold text-white mb-6">Kanban Board</h1>
+      <h1 className="text-3xl font-bold text-white mb-6">Board</h1>
 
       <DragDropContext onDragEnd={onDragEnd}>
         <Droppable droppableId="LISTS" type="LIST" direction="horizontal">

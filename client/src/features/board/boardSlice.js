@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { createBoardApi, deleteBoardApi, getBoardByIdApi, getBoardDataApi, updateBoardApi } from "./boardAPI";
+import { createBoardApi, deleteBoardApi, getBoardByIdApi, getBoardDataApi, updateBoardApi } from "./boardApi";
 
 export const getBoardData = createAsyncThunk (
     'board/getBoardData',
